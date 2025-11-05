@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    font-weight: normal;
+    font-size: 100px
+}
+
+
+.glow-text {
+  color: #007bff;
+  animation: pulse-glow 2s infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from {
+    text-shadow: 0 0 5px #007bff;
+  }
+  to {
+    text-shadow: 0 0 20px #007bff, 0 0 30px #007bff;
+  }
+}
